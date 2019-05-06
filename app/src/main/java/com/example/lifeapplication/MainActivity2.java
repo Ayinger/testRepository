@@ -1,4 +1,4 @@
-package com.example.lifeapplication;
+﻿package com.example.lifeapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView text = findViewById(R.id.text);
-        text.setText("MainActivity2更改了");
+        text.setText("MainActivity2更改了！！！");
         Log.e(TAG, "onCreate:执行了 ");
     }
 
