@@ -1,4 +1,4 @@
-package com.example.lifeapplication;
+﻿package com.example.lifeapplication;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,MainActivity2.class));
             }
         });
-        Log.e(TAG, "onCreate:执行了 ");
+        Log.e(TAG, "onCreate:执行了！！ ");
+        Log.e(TAG, "onCreate:执行了！！ ");
     }
 
     @Override
